@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="1. 프로젝트 개요")
 
 st.title('Book Recommendation Wrap-up Report')
 st.write('Recsys-3조 ( INT로조 )')
@@ -19,11 +20,11 @@ st.markdown('''
 - `books.csv` : 책에 대한 정보
 - `Image/` : 책 이미지
 ''')
-st.image('resource/input_1.png')
-st.image('resource/input_2.png')
-st.image('resource/input_3.png')
-st.image('resource/input_4.png')
-st.image('resource/input_5.png')
+st.image('resource/image/input_1.png')
+st.image('resource/image/input_2.png')
+st.image('resource/image/input_3.png')
+st.image('resource/image/input_4.png')
+st.image('resource/image/input_5.png')
 st.markdown('''
 ### Output
 
@@ -38,11 +39,11 @@ st.markdown('''
 - 평점 예측에서 자주 사용되는 지표 중 하나인 RMSE (Root Mean Square Error)를 사용한다.
 - 모델의 예측이 얼마나 잘못 되었는지를 수치로 나타내고 모델이 예측을 잘할수록 지표는 0 에 수렴한다.
 ''')
-st.image('resource/evaluation.png')
+st.image('resource/image/evaluation.png')
 st.markdown('''
 ### RMSE Formula
 ''')
-st.image('resource/rmse_formula.png')
+st.image('resource/image/rmse_formula.png')
 st.markdown('''
 ## 1-3. 프로젝트 협업 전략
 
@@ -51,7 +52,7 @@ st.markdown('''
 - 해당 프로젝트의 협업툴로 Git을 사용한다.
 - Git 관리 전략 중 GitHub Flow를 사용하며 Remote 중심 Branch 전략으로 배포의 중심이 되는 main 브랜치와 각각의 feature 브랜치로 구성하고 있다.
 ''')
-st.image('resource/github_flow.png')
+st.image('resource/image/github_flow.png')
 st.link_button('level1-bookratingprediction-recsys-03', 'https://github.com/boostcampaitech6/level1-bookratingprediction-recsys-03')
 st.markdown('''
 ### Commit Convention

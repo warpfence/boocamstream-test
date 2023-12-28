@@ -9,13 +9,13 @@ st.markdown('''
 
 ## 3-1. 프로젝트 타임라인
 ''')
-st.image('resource/schedule.png')
+st.image('resource/image/schedule.png')
 st.markdown('''
 ## 3-2. 프로젝트 파이프라인
 
 - 프로젝트 진행은 아래와 같은 파이프라인으로 팀원 모두 end-to-end 방식으로 진행하였다.
 ''')
-st.image('resource/pipeline.png')
+st.image('resource/image/pipeline.png')
 st.markdown('''
 - EDA → 가설 수립 → 모델링 → 평점 예측 → **결과 분석** → 앙상블 → 제출
     - 결과 분석 과정에서 만족하지 못한 결과가 나오면 EDA 과정부터 다시 진행했다.
